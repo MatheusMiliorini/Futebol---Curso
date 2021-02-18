@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &816526522918104832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 816526522918104834}
+  - component: {fileID: 816526522918104833}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &816526522918104834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816526522918104832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.28, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &816526522918104833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816526522918104832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21466874d86fc544b8f62ee2f56c2c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bola:
+  - {fileID: 978117087625337676, guid: 2ed89e5409307b2489cd3b374b7a5559, type: 3}
+  - {fileID: 978117087625337676, guid: 01f098f2685baeb4799c76a89dc20ad0, type: 3}
+  - {fileID: 978117087625337676, guid: fd9af13af02348c4ba14ad34232a2b94, type: 3}
+  - {fileID: 978117087625337676, guid: d7eac39c620a7ca4e9dd3fc68ce6e6ca, type: 3}
+  - {fileID: 978117087625337676, guid: 8efe86fb659c2d1458b8a49eea3b3ee0, type: 3}
+  - {fileID: 978117087625337676, guid: 12ce4e33a6bf2034caa706ec1920a4ef, type: 3}
+  bolasNum: 2
+  bolasEmCena: 0
+  win: 0
+  tiro: 0
+  jogoComecou: 0
